@@ -73,3 +73,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   background-color: #999999;
   margin: 10px auto;
 }
+
+@media screen and (max-width: 960px) {
+  /* line 15, ../sass/screen.scss */
+  #wrapper {
+    width: 100%;
+    margin: 5px auto;
+  }
+}
