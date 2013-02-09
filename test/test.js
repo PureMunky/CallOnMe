@@ -85,7 +85,7 @@ test('Call next iterates through list.', function () {
 	ok(s3.name, 'Student 3 Retrieved' + s3.name);
 	ok(s4.name, 'Student 4 Retrieved' + s4.name);
 	ok(s1.name != s2.name, 'First pair different');
-	ok(s3.name != s4.name, 'Second pair differnt');
+	ok(s3.name != s4.name, 'Second pair different');
 	ok(s1.name == s3.name || s1.name == s4.name, 'First student comes up a second time.');
 	ok(s2.name == s3.name || s2.name == s4.name, 'Second student comes up a second time.');
 });
