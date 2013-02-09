@@ -17,7 +17,6 @@ $(function () {
 		} else {
 			$('[data-call=name]').text('Skipped All Students');
 		}
-		
 	});
 	
 	$('[data-call=skip]').on('click', function () {
