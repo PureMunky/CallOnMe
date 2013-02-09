@@ -1,9 +1,8 @@
 <html>
 	<head>
-		<link rel="stylesheet" href="stylesheets/screen.css" media="all" />
-		<link rel="stylesheet" href="stylesheets/print.css" media="print" />
 		<link rel="stylesheet" href="css/bootstrap.min.css" />
 		<link rel="stylesheet" href="css/bootstrap-responsive.min.css" />
+		<link rel="stylesheet" href="css/core.css" />
 		
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		
@@ -12,15 +11,23 @@
 		<script type="text/javascript" src="js/core.js"></script>
 	</head>
 	<body>
-		<div class="container">
-			<div class="lead">
-				<h1>Call On Me</h1>
-				<p>Press the button below to pick a kid to call on.</p>
-				<h2 data-call="name">Phil Corbett</h2>
-				<div class="btn-group">
-					<a class="btn btn-large" data-call="reload"><i class="icon-refresh"></i> Reload</a>
-					<a class="btn btn-large btn-danger" data-call="skip"><i class="icon-remove"></i> Skip</a>
-					<a class="btn btn-large" data-call="call">Next <i class="icon-chevron-right"></i></a>
+		<div class="navbar navbar-inverse navbar-fixed-top" style="margin-bottom: 20px;">
+			<div class="navbar-inner">
+				<div class="container">
+					<a class="brand" href="./index.html">CallOnMe</a>
+				</div>
+			</div>
+		</div>
+		<div class="content">
+			<div class="container">
+				<div class="lead">
+					<p>Use the buttons below to pick someone to call on.</p>
+					<h2 data-call="name">Phil Corbett</h2>
+					<div class="btn-group">
+						<a class="btn btn-large" data-call="reload"><i class="icon-refresh"></i> Reload</a>
+						<a class="btn btn-large btn-danger" data-call="skip"><i class="icon-remove"></i> Skip</a>
+						<a class="btn btn-large" data-call="call">Next <i class="icon-chevron-right"></i></a>
+					</div>
 				</div>
 			</div>
 		</div>

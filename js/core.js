@@ -3,7 +3,7 @@ $(function () {
 		$.ajax({
 			url: 'js/data.js',
 			success: function () {
-				$('[data-call=name]').text('Names loaded');
+				$('[data-call=name]').text('Who\'s next?');
 			}
 		});
 	}
