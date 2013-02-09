@@ -1,9 +1,18 @@
 var Call = (function() {
 	var that = this;
-	var _students = [];
-	var _used = [];
-	var _skip = [];
-	var _current = {};
+	var _students,
+		_used,
+		_skip,
+		_current;
+	
+	_Clear();
+	
+	function _Clear() {
+		_students = [];
+		_used = [];
+		_current = {};
+		_skip = [];
+	};
 	
 	that.Get = function(i) {
 		if(typeof i == 'number') {
@@ -53,10 +62,7 @@ var Call = (function() {
 	}
 	
 	that.Clear = function () {
-		_students = [];
-		_used = [];
-		_current = {};
-		_skip = [];
+		_Clear();
 	}
 	return that;
 })();
