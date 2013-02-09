@@ -41,8 +41,22 @@ var Call = (function() {
 		return _current;
 	}
 	
+	that.Skip = function () {
+		if(_current.name) {
+			_skip.push(_current);
+			var rtn = _current;
+		
+			_current = {};
+		
+			return rtn;
+		}
+	}
+	
 	that.Clear = function () {
 		_students = [];
+		_used = [];
+		_current = {};
+		_skip = [];
 	}
 	return that;
 })();
