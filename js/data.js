@@ -12,5 +12,5 @@ Call.Add([
 	{name:'Heidi'},
 	{name:'Adam'},
 	{name:'Carline'},
-	{name:'Dave'},
+	{name:'Dave'}
 ]);
