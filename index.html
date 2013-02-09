@@ -5,22 +5,22 @@
 		<link rel="stylesheet" href="css/bootstrap.min.css" />
 		<link rel="stylesheet" href="css/bootstrap-responsive.min.css" />
 		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
 		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 		<script type="text/javascript" src="js/CallOnMe.js"></script>
 		<script type="text/javascript" src="js/data.js"></script>
 		<script type="text/javascript" src="js/core.js"></script>
 	</head>
 	<body>
-		<div class="navbar navbar-fixed-top">
-			<div class="navbar-inner">
-				<div class="container">
-					<div class="nav-collapse collapse">
-						<ul class="nav">
-							<li><a href="#">Add</a></li>
-							<li><a href="#">Clear</a></li>
-							<li><a href="#">Random</a></li>
-						</ul>
-					</div>
+		<div class="container">
+			<div class="leaderboard">
+				<h1>Call On Me</h1>
+				<p>Press the button below to pick a kid to call on.</p>
+				<h2 data-call="name">Phil Corbett</h2>
+				<div class="btn-group">
+					<a class="btn btn-large" data-call="call">Call On Me!</a>
+					<a class="btn btn-large btn-danger" data-call="skip">Skip</a>
 				</div>
 			</div>
 		</div>

@@ -16,6 +16,10 @@ test('Clear Students', function () {
 	ok(Call.Clear, 'Clear Exists');
 })
 
+test('Next Student', function () {
+	ok(Call.Next, 'Next exists');	
+});
+
 module('function calls');
 
 test('Add a Student', function () {
@@ -56,6 +60,30 @@ test('Add multiple Students', function () {
 	equal(s1.name, 'Joe S', 'Student 1 Added');
 	equal(s2.name, 'Sara H', 'Student 2 Added');
 	equal(s3, undefined, 'Student 3 Not There')
+})
+
+test('Call next iterates through list.', function () {
+	Call.Clear();
+	Call.Add([{
+		name: 'Joe S'
+	},
+	{
+		name: 'Sara H'
+	}]);
+	
+	var s1 = Call.Next();
+	var s2 = Call.Next();
+	var s3 = Call.Next();
+	var s4 = Call.Next();
+	
+	ok(s1.name, 'Student 1 Retrieved' + s1.name);
+	ok(s2.name, 'Student 2 Retrieved' + s2.name);
+	ok(s3.name, 'Student 3 Retrieved' + s3.name);
+	ok(s4.name, 'Student 4 Retrieved' + s4.name);
+	ok(s1.name != s2.name, 'First pair different');
+	ok(s3.name != s4.name, 'Second pair differnt');
+	ok(s1.name == s3.name || s1.name == s4.name, 'First student comes up a second time.');
+	ok(s2.name == s3.name || s2.name == s4.name, 'Second student comes up a second time.');
 })
 
 test('Get Array', function () {

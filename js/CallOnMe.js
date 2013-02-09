@@ -1,6 +1,9 @@
 var Call = (function() {
 	var that = this;
 	var _students = [];
+	var _used = [];
+	var _skip = [];
+	var _current = {};
 	
 	that.Get = function(i) {
 		if(typeof i == 'number') {
@@ -20,6 +23,23 @@ var Call = (function() {
 		}
 		
 	};
+	
+	that.Next = function () {
+		if(_current.name) _used.push(_current);
+		
+		if (_students.length == 0) {
+			_students = _used;
+			_used = [];
+		}
+		
+		var i = Math.round((Math.random() * 101)) % _students.length;
+		
+		_current = _students[i];
+		
+		_students.splice(i, 1);
+		
+		return _current;
+	}
 	
 	that.Clear = function () {
 		_students = [];
