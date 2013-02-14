@@ -1,5 +1,27 @@
+.giant {
+	font-size: 5em;
+}
+
+.spaceAbove {
+	padding-top: 60px;
+}
+
+.textCenter {
+	text-align: center;
+}
+
+.primaryButtons {
+	text-align: center;
+}
+
 @media (min-width: 979px) {
 	.content {
 		padding-top: 60px;
+	}
+}
+
+@media (max-width: 979px) {
+	.giant {
+		font-size: 3em;
 	}
 }
