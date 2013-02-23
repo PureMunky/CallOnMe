@@ -49,3 +49,15 @@ Skips the current student and adds them to the skipped list so they won't be rec
 Resets the enire class back to instantiation.
 
 	Call.Clear();
+
+## Future Plans
+
+Eventually this should become a suite of tools for teachers.
+
+Possible Tools:
+- Attendence
+- Behavior
+- Grades
+- Lesson Plans
+- Anything!!
+- Yes, seriously...anything.
