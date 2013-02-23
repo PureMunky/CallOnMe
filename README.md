@@ -1,6 +1,6 @@
 # CallOnMe
 
-A simple app for a teacher to add students and randomize their names to call on them for questions. Eventually this should become a suite of tools for teachers.
+A simple app for a teacher to add students and randomize their names to call on them for questions.
 
 ## core.js
 
@@ -49,3 +49,7 @@ Skips the current student and adds them to the skipped list so they won't be rec
 Resets the enire class back to instantiation.
 
 	Call.Clear();
+
+## Future Plans
+
+Eventually this should become a suite of tools for teachers.
