@@ -1,4 +1,4 @@
-\test\
-\deploy\
+test\
+deploy\
 README.md
 .gitignore
