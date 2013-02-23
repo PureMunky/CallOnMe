@@ -53,3 +53,9 @@ Resets the enire class back to instantiation.
 ## Future Plans
 
 Eventually this should become a suite of tools for teachers.
+
+Possible Tools:
+- Attendence
+- Behavior
+- Grades
+- Lesson Plans
