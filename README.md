@@ -50,12 +50,34 @@ Resets the enire class back to instantiation.
 
 	Call.Clear();
 
-## Future Plans
+## Tools
 
-Eventually this should become a suite of tools for teachers.
+These are a roadmap for the pieces of the system that should be included in the final product.
 
-Possible Tools:
-- Attendence
-- Behavior
-- Grades
-- Lesson Plans
+### Attendence
+
+Students' daily attendence and participation.
+
+### Behavior
+
+Easily mark bevhaviors in the classroom both positive and negative.
+
+### Rewards
+
+Introduce a reward system where the student will automatically be rewarded upon reaching goals.
+
+### Grades
+
+Grades will be based on assignments/lesson plans and automatically calculated.
+
+### Lesson Plans
+
+Allow a teacher to create activities that are scheduled and tracked. Lessons and activities can be shared between classroom teams.
+
+### Classroom Management
+
+Assign classrooms to teachers and create groups (e.g. K1 and K2).
+
+### Reporting
+
+See various types of data from trends to statistics, report cards, and others.
