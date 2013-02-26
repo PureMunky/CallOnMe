@@ -1,9 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CallOnMe", "..\CallOnMe", "{CF8B4528-5840-4484-B939-E4F8D8D3EC0F}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CallOnMe", ".", "{CF8B4528-5840-4484-B939-E4F8D8D3EC0F}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{6eb7bc3f-040d-4aaa-8e0f-ec76a2e1d7ab}|DataAccess.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/CallOnMe"
 		Debug.AspNetCompiler.PhysicalPath = "..\CallOnMe\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\CallOnMe\"
@@ -21,7 +22,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CallOnMe", "..\CallOnMe", "
 		VWDPort = "58553"
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "..\DataAccess\DataAccess.csproj", "{6EB7BC3F-040D-4AAA-8E0F-EC76A2E1D7AB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "..\DataAccess\DataAccess\DataAccess.csproj", "{6EB7BC3F-040D-4AAA-8E0F-EC76A2E1D7AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
