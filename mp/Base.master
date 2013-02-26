@@ -33,19 +33,19 @@
                     <div class="nav-collapse collapse">
                         <ul class="nav">
                             <li class="active">
-                                <a href="./index.html">Call</a>
+                                <a href="Call.aspx">Call</a>
                             </li>
                             <li>
-                                <a href="./index.html">Behavior</a>
+                                <a href="Behavior.aspx">Behavior</a>
                             </li>
                             <li>
-                                <a href="./index.html">Attendance</a>
+                                <a href="Attendance.aspx">Attendance</a>
                             </li>
                             <li>
-                                <a href="./index.html">Grades</a>
+                                <a href="Grades.aspx">Grades</a>
                             </li>
                             <li>
-                                <a href="./index.html">Lessons</a>
+                                <a href="Lessons.aspx">Lessons</a>
                             </li>
                         </ul>
                     </div>
