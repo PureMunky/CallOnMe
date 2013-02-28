@@ -81,3 +81,7 @@ Assign classrooms to teachers and create groups (e.g. K1 and K2).
 ### Reporting
 
 See various types of data from trends to statistics, report cards, and others.
+
+## Barrowed Code
+
+* [crypto-js](https://code.google.com/p/crypto-js/)
